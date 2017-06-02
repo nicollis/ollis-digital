@@ -1,0 +1,11 @@
+@import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.css");
+
+@import url("http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css");
+
+#mc_embed_signup{
+  background:#fff; 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+  width:100%;
+  }
