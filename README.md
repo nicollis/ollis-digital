@@ -1,2 +1,2 @@
 # ollis-digital
-Small static site released using firebase hosting
+Small site for my contracting services product releases, using firebase hosting
