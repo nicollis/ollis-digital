@@ -1,6 +1,21 @@
+/* Style Rules:
+* - Font Use: 
+*   - Raleway (Headers, Titles, and Buttons)
+*   - Lato (Default for all other text)
+* - Color Use:
+*   - Primary: #DA4453
+*   - Primary-Light: #ED5565 || #f8d0d5 (highlight)
+*   - Text: #000
+*   - Text-Light: #fff || #f9f2f4
+*/
+
+/* Imports Bootstrap, Bootflat, and Fonts [Lato, Raleway] */
+
 @import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
-/*@import url("https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.css");*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.css");
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway:300,400');
+
+/* Mail Chimp CSS */
 
 @import url("http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css");
 
@@ -10,3 +25,89 @@
   font:14px Helvetica,Arial,sans-serif; 
   width:100%;
   }
+#mc_embed_signup .email{
+  border: 1px solid #ED5565 !important;
+}
+#mc_embed_signup .button{
+  color: white;
+  background-color: #ED5565;
+  font-family: 'Raleway', Verdana, sans-serif;
+}
+#mc_embed_signup .button:hover{
+  color: white;
+  background-color: #DA4453;
+  font-family: 'Raleway', Verdana, sans-serif;
+}
+
+/* General */
+
+h2, h3, h4, dt {
+  font-family: 'Raleway', Verdana, sans-serif;
+}
+
+.header {
+  padding: 15px 0px;
+  color: #DA4453;
+}
+
+dt {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #DA4453;
+}
+
+p, dd{
+  font-family: 'Lato', Verdana, sans-serif;
+  font-size: 18px;
+  padding: 12px;
+}
+
+hr {
+  border: #f8d0d5 1px solid;
+}
+
+.btn-ollis {
+  color: white;
+  background-color: #ED5565;
+  margin: 12px;
+  font-family: 'Raleway', Verdana, sans-serif;
+}
+
+.btn-ollis:hover {
+  color: white;
+  background-color: #DA4453;
+  font-family: 'Raleway', Verdana, sans-serif;
+}
+
+.btn-ollis-o {
+  background-color: white;
+  color: #DA4453;
+  margin: 12px;
+  border: 1px solid #DA4453 !important;
+  font-family: 'Raleway', Verdana, sans-serif;
+}
+
+.btn-ollis-o:hover {
+  background-color: #DA4453;
+  color: white;
+  border: 1px solid #DA4453 !important;
+  font-family: 'Raleway', Verdana, sans-serif;
+}
+
+#avatar {
+  max-width: 200px;
+  width: 100%;
+}
+
+.bottom {
+  margin-bottom: 50px;
+}
+
+.footer {
+ background-color: #DA4453;
+}
+
+.footer-copyright {
+  color: #f9f2f4;
+}
