@@ -111,3 +111,24 @@ hr {
 .footer-copyright {
   color: #f9f2f4;
 }
+
+#logo {
+  font-size: 30px;
+  padding: 5px 30px;
+  font-weight: 300;
+  background-color: #DA4453;
+}
+
+.navbar{
+  margin-bottom: 50px;
+}
+
+.navbar ul {
+  margin: 12px;
+  font-size: 22px;
+}
+
+.navbar ul a {
+  color: #DA4453;
+  font-family: 'Raleway', Verdana, sans-serif;
+}
